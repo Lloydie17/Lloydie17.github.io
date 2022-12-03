@@ -46,7 +46,8 @@ nav {
 }
 
 .center {
-    margin: auto;
+    display: flex;
+    justify-content: center;
 }
 
 /*portfolio section image css */
@@ -147,7 +148,19 @@ ul.a {
 }
 
 .col-edu {
-  margin-bottom: -10%;
+  margin-bottom: -4%;
+}
+
+.col-edu2 {
+  margin-bottom: -4%;
+}
+
+.col-edu3 {
+  margin-bottom: -15%;
+}
+
+.col-resume {
+  margin-top: -1%;
 }
 
 .resume-edu {
@@ -180,13 +193,49 @@ ul.a {
   transform: translate(6%, -175%)
 }
 
+.resume-exp-1 {
+  font-size: 1.1rem;
+  transform: translate(6%, -155%)
+}
+
+.resume-exp2-1 {
+  font-weight: bold;
+  font-size: 1.1rem;
+  transform: translate(6%, -210%)
+}
+
+.resume-date-exp-1 {
+  font-size: 1.1rem;
+  transform: translate(6%, -270%)
+}
+
+.resume-tech-exp-1 {
+  font-weight: bold;
+  font-size: 1.1rem;
+  transform: translate(6%, -310%)
+}
+
 .resume-list-exp {
   font-size: 1.1rem;
-  transform: translate(6%, -175%)
+  transform: translate(6%, -25%)
+}
+
+.resume-list-exp-1 {
+  font-size: 1.1rem;
+  transform: translate(6%, -30%)
+}
+
+.resume-list-exp2 {
+  font-size: 1.1rem;
+  transform: translate(0, -90%)
+}
+
+.resume-list-exp3 {
+  transform: translate(-13%, 50%)
 }
 
 .icon2 {
-  margin-left: -100px;
+  margin-left: -20px;
   color: #444049;
 }
 
@@ -203,7 +252,7 @@ ul.a {
 
 .resume {
   width: 800px;
-  height: auto;
+  height: 1480px;
   display: flex;
   margin: 50px auto;
 }
