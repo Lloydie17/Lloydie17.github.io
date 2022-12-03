@@ -220,6 +220,11 @@ ul.a {
   transform: translate(6%, -25%)
 }
 
+.resume-list-exp1 {
+  font-size: 1.1rem;
+  transform: translate(0, -90%)
+}
+
 .resume-list-exp-1 {
   font-size: 1.1rem;
   transform: translate(6%, -30%)
